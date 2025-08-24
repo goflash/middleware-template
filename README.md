@@ -1,17 +1,17 @@
 # Example middleware template for the GoFlash web framework
 
 <h1 align="center">
-    <a href="https://pkg.go.dev/github.com/goflash/example-template/v2@v2.0.0">
-        <img src="https://pkg.go.dev/badge/github.com/goflash/example-template.svg" alt="Go Reference">
+    <a href="https://pkg.go.dev/github.com/goflash/example-middleware/v2@v2.0.0">
+        <img src="https://pkg.go.dev/badge/github.com/goflash/example-middleware.svg" alt="Go Reference">
     </a>
-    <a href="https://goreportcard.com/report/github.com/goflash/example-template">
+    <a href="https://goreportcard.com/report/github.com/goflash/example-middleware">
         <img src="https://img.shields.io/badge/%F0%9F%93%9D%20Go%20Report-A%2B-75C46B?style=flat-square" alt="Go Report Card">
     </a>
-    <a href="https://codecov.io/gh/goflash/example-template">
-        <img src="https://codecov.io/gh/goflash/example-template/graph/badge.svg?token=VRHM48HJ5L" alt="Coverage">
+    <a href="https://codecov.io/gh/goflash/example-middleware">
+        <img src="https://codecov.io/gh/goflash/example-middleware/graph/badge.svg?token=VRHM48HJ5L" alt="Coverage">
     </a>
-    <a href="https://github.com/goflash/example-template/actions?query=workflow%3ATest">
-        <img src="https://img.shields.io/github/actions/workflow/status/goflash/example-template/test-coverage.yml?branch=main&label=%F0%9F%A7%AA%20Tests&style=flat-square&color=75C46B" alt="Tests">
+    <a href="https://github.com/goflash/example-middleware/actions?query=workflow%3ATest">
+        <img src="https://img.shields.io/github/actions/workflow/status/goflash/example-middleware/test-coverage.yml?branch=main&label=%F0%9F%A7%AA%20Tests&style=flat-square&color=75C46B" alt="Tests">
     </a>
     <img src="https://img.shields.io/badge/go-1.23%2B-00ADD8?logo=golang" alt="Go Version">
     <a href="https://docs.goflash.dev">
@@ -37,7 +37,7 @@
 ## Installation
 
 ```sh
-go get github.com/goflash/example-template
+go get github.com/goflash/example-middleware
 ```
 
 Go version: requires Go 1.23+. The module sets `go 1.23` and can be used with newer Go versions.
@@ -53,7 +53,7 @@ import (
     "log"
     "net/http"
 
-    "github.com/goflash/example-template"
+    "github.com/goflash/example-middleware"
     "github.com/goflash/flash/v2"
 )
 
@@ -107,7 +107,7 @@ Run tests with coverage:
 
 ## Versioning and compatibility
 
-- Module path: `github.com/goflash/example-template`
+- Module path: `github.com/goflash/example-middleware`
 - Requires Go 1.23+
 
 ## Contributing

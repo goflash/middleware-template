@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/goflash/example-template"
+	"github.com/goflash/example-middleware"
 	"github.com/goflash/flash/v2"
 )
 

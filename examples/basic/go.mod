@@ -5,10 +5,10 @@ go 1.23.0
 toolchain go1.23.2
 
 // Using local middleware codebase in local examples
-replace github.com/goflash/example-template => ../..
+replace github.com/goflash/example-middleware => ../..
 
 require (
-	github.com/goflash/example-template v0.0.0-00010101000000-000000000000
+	github.com/goflash/example-middleware v0.0.0-00010101000000-000000000000
 	github.com/goflash/flash/v2 v2.0.0-beta.6
 )
 
