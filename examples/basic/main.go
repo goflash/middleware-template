@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/goflash/example-middleware"
 	"github.com/goflash/flash/v2"
+	example "github.com/goflash/middleware-template"
 )
 
 func main() {

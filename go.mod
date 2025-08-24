@@ -1,4 +1,4 @@
-module github.com/goflash/example-middleware
+module github.com/goflash/middleware-template
 
 go 1.23.0
 
